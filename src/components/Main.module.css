@@ -1,17 +1,18 @@
 .container {
   width: 100%;
+  height: 100vh;
   max-width: 1920px;
   margin: 0 auto;
   background-color: #fbc5d5;
+ 
 }
 
 .title {
   background-image: url("../images/title2.png");
-  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
   width: 100%;
   height: 100px;
   display: flex;
@@ -20,27 +21,26 @@
 
 .title2 {
   background-image: url("../images/title2.png");
-  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 20px;
   width: 100%;
   height: 100px;
   display: flex;
-  margin-top: 30%;
+  padding-top: 30%;
   transition: 1.5s ease-in-out;
 }
 
 .cloud {
   background-image: url("../images/cloud2.png");
-  background-size: 1010px;
+  background-size: 52vw;
   background-repeat: no-repeat;
   background-position: center;
   margin-left: 80px;
   flex-shrink: 1;
   display: flex;
   justify-content: center;
-  height: 650px;
+  height: 33vw;
   opacity: 1;
   transition: 2s;
 }
@@ -54,18 +54,18 @@
   flex-shrink: 1;
   display: flex;
   justify-content: center;
-  height: 650px;
+  height: 0px;
   visibility: hidden;
   opacity: 0; /*Элемент полностью прозрачный (невидимый)*/
-  transition: 1s; /*Скорость перехода состояния элемента*/
+  transition: 2s; /*Скорость перехода состояния элемента*/
 }
 .textBodyOne {
   margin-top: 50px;
   margin-bottom: 0px;
   margin-left: 80px;
-  max-width: 550px;
+  max-width: 450px;
   font-family: "Start14";
-  font-size: 45.91px;
+  font-size: 2.2rem;
   font-weight: bold;
   text-transform: uppercase;
   color: rgb(14, 10, 10);
@@ -101,8 +101,8 @@
 .textBodyTwo {
   margin-top: 0px;
   margin-left: 80px;
-  max-width: 600px;
-  font-size: 45.91px;
+  max-width: 500px;
+  font-size: 2.2em;
   text-transform: uppercase;
   font-weight: bold;
   font-family: "Start14";
@@ -141,6 +141,7 @@
 
 .innerBlock {
   display: flex;
+  padding-right:30px;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -152,6 +153,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding-right:30px;
   visibility: hidden;
   opacity: 0; /*Элемент полностью прозрачный (невидимый)*/
   transition: 1s; /*Скорость перехода состояния элемента*/
@@ -160,7 +162,7 @@
 .btn {
   opacity: 1;
   transition: 1.5s;
-  font-size: 50.385px;
+  font-size: 40.385px;
   font-family: "Start14";
   color: rgb(0, 0, 0);
   line-height: 1.2;
@@ -258,7 +260,6 @@
   transition: 1s; /*Скорость перехода состояния элемента*/
   width: 550px;
   height: 110px;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -269,7 +270,6 @@
   visibility: hidden;
   opacity: 0; /*Элемент полностью прозрачный (невидимый)*/
   transition: 2s; /*Скорость перехода состояния элемента*/
-  margin-top: 600px;
 }
 
 .btn2 {
@@ -320,8 +320,10 @@
   justify-content: space-between;
   max-width: 1160px;
   margin: 0 auto;
-  margin-top: 35px;
+  padding-top: 35px;
   padding-left: 80px;
+  height: 110px;
+  transition: 1.5s;
 }
 .buttonsBlock2 {
   display: flex;
@@ -329,9 +331,12 @@
   justify-content: space-between;
   max-width: 1160px;
   margin: 0 auto;
-  margin-top: 35px;
+  padding-top: 80px;
+  transition: 1.5s;
   padding-left: 80px;
   visibility: hidden;
+  height: 110px;
+  
 }
 .sign {
   position: absolute;
@@ -340,9 +345,17 @@
 }
 
 @media screen and (max-width: 1140px) {
+  .container {
+    width: 100%;
+    height: 95vh;
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: #fbc5d5;
+   
+  }
   .title {
-    margin-top: 260px;
-    margin-bottom: 60px;
+    padding-top: 150px;
+    padding-bottom: 30px;
     width: 100%;
     height: 100px;
     display: flex;
@@ -350,32 +363,30 @@
 
   .title2 {
     background-image: url("../images/title2.png");
-    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     width: 100%;
-    height: 100px;
+    height: 0px;
     display: flex;
-    margin-top: 65%;
+    padding-top:90%;
     transition: 1.5s ease-in-out;
   }
   .cloud {
     margin-left: 60px;
     margin-right: 60px;
-    max-height: 400px;
+  height: 400px;
     flex-shrink: 1;
     display: flex;
     justify-content: center;
-    background-size: 100%;
+    background-size: 95%;
   }
   .cloud2 {
-    background-size: 100%;
+    background-size: 0%;
     background-repeat: no-repeat;
     background-position: center;
     margin-left: 60px;
     margin-right: 60px;
-    max-height: 400px;
+    height: 0px;
     flex-shrink: 1;
     display: flex;
     justify-content: center;
@@ -483,7 +494,7 @@
     visibility: hidden;
     opacity: 0; /*Элемент полностью прозрачный (невидимый)*/
     transition: 2s; /*Скорость перехода состояния элемента*/
-    margin-top: 100px;
+    margin-top: 0px;
     font-size: 3.5vw;
     font-family: "Start14";
     color: rgb(0, 0, 0);
@@ -652,7 +663,7 @@
     opacity: 0; /*Элемент полностью прозрачный (невидимый)*/
     transition: 1s; /*Скорость перехода состояния элемента*/
     width: 80%;
-    height: 110px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -664,7 +675,7 @@
     opacity: 0; /*Элемент полностью прозрачный (невидимый)*/
     transition: 1s; /*Скорость перехода состояния элемента*/
     width: 80%;
-    height: 110px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
