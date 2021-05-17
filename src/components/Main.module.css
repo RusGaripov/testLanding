@@ -1,0 +1,686 @@
+.container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: #fbc5d5;
+}
+
+.title {
+  background-image: url("../images/title2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  transition: 1.5s ease-in-out;
+}
+
+.title2 {
+  background-image: url("../images/title2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  margin-top: 30%;
+  transition: 1.5s ease-in-out;
+}
+
+.cloud {
+  background-image: url("../images/cloud2.png");
+  background-size: 1010px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 80px;
+  flex-shrink: 1;
+  display: flex;
+  justify-content: center;
+  height: 650px;
+  opacity: 1;
+  transition: 2s;
+}
+
+.cloud2 {
+  background-image: url("../images/cloud2.png");
+  background-size: 1010px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 80px;
+  flex-shrink: 1;
+  display: flex;
+  justify-content: center;
+  height: 650px;
+  visibility: hidden;
+  opacity: 0; /*Элемент полностью прозрачный (невидимый)*/
+  transition: 1s; /*Скорость перехода состояния элемента*/
+}
+.textBodyOne {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-left: 80px;
+  max-width: 550px;
+  font-family: "Start14";
+  font-size: 45.91px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(14, 10, 10);
+  line-height: 1.3;
+  text-align: center;
+  -moz-transform: matrix(
+    1.00893700122833,
+    0.00044593313942,
+    -0.00044592609629,
+    1.00893676280975,
+    0,
+    0
+  );
+  -webkit-transform: matrix(
+    1.00893700122833,
+    0.00044593313942,
+    -0.00044592609629,
+    1.00893676280975,
+    0,
+    0
+  );
+  -ms-transform: matrix(
+    1.00893700122833,
+    0.00044593313942,
+    -0.00044592609629,
+    1.00893676280975,
+    0,
+    0
+  );
+  width: 712px;
+}
+
+.textBodyTwo {
+  margin-top: 0px;
+  margin-left: 80px;
+  max-width: 600px;
+  font-size: 45.91px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Start14";
+  color: rgb(13, 10, 10);
+  line-height: 1.3;
+  text-align: center;
+  -moz-transform: matrix(
+    1.01501548290253,
+    -0.00174697383773,
+    0.00174697407056,
+    1.01501560211182,
+    0,
+    0
+  );
+  -webkit-transform: matrix(
+    1.01501548290253,
+    -0.00174697383773,
+    0.00174697407056,
+    1.01501560211182,
+    0,
+    0
+  );
+  -ms-transform: matrix(
+    1.01501548290253,
+    -0.00174697383773,
+    0.00174697407056,
+    1.01501560211182,
+    0,
+    0
+  );
+}
+
+.start {
+  font-weight: normal;
+}
+
+.innerBlock {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  opacity: 1;
+  transition: 1.5s;
+}
+.innerBlock2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0; /*Элемент полностью прозрачный (невидимый)*/
+  transition: 1s; /*Скорость перехода состояния элемента*/
+}
+
+.btn {
+  opacity: 1;
+  transition: 1.5s;
+  font-size: 50.385px;
+  font-family: "Start14";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: center;
+  -moz-transform: matrix(
+    0.93129086494446,
+    -2.06788112176883e-16,
+    2.06788151881552e-16,
+    0.93129104375839,
+    0,
+    0
+  );
+  -webkit-transform: matrix(
+    0.93129086494446,
+    -2.06788112176883e-16,
+    2.06788151881552e-16,
+    0.93129104375839,
+    0,
+    0
+  );
+  -ms-transform: matrix(
+    0.93129086494446,
+    -2.06788112176883e-16,
+    2.06788151881552e-16,
+    0.93129104375839,
+    0,
+    0
+  );
+  background-color: #ff609a !important;
+  width: 550px;
+  height: 110px;
+  border-radius: 20px;
+  border: 2px black solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: upperCase;
+  line-height: 1.2;
+}
+.btnText {
+  opacity: 1;
+  transition: 1.5s;
+  font-size: 50.385px;
+  font-family: "Start14";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: center;
+  -moz-transform: matrix(
+    0.93129086494446,
+    -2.06788112176883e-16,
+    2.06788151881552e-16,
+    0.93129104375839,
+    0,
+    0
+  );
+  -webkit-transform: matrix(
+    0.93129086494446,
+    -2.06788112176883e-16,
+    2.06788151881552e-16,
+    0.93129104375839,
+    0,
+    0
+  );
+  -ms-transform: matrix(
+    0.93129086494446,
+    -2.06788112176883e-16,
+    2.06788151881552e-16,
+    0.93129104375839,
+    0,
+    0
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: upperCase;
+  line-height: 1.2;
+}
+
+.notBtn {
+  visibility: hidden;
+  opacity: 0; /*Элемент полностью прозрачный (невидимый)*/
+  transition: 1s; /*Скорость перехода состояния элемента*/
+  width: 550px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: upperCase;
+  line-height: 1.2;
+}
+.notBtn2 {
+  visibility: hidden;
+  opacity: 0; /*Элемент полностью прозрачный (невидимый)*/
+  transition: 1s; /*Скорость перехода состояния элемента*/
+  width: 550px;
+  height: 110px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: upperCase;
+  line-height: 1.2;
+}
+.notBtns {
+  visibility: hidden;
+  opacity: 0; /*Элемент полностью прозрачный (невидимый)*/
+  transition: 2s; /*Скорость перехода состояния элемента*/
+  margin-top: 600px;
+}
+
+.btn2 {
+  opacity: 1;
+  transition: 1.5s;
+  font-size: 45.385px;
+  font-family: "Start14";
+  color: rgb(0, 0, 0);
+  background-color: #cbe8fc;
+  width: 550px;
+  height: 110px;
+  border-radius: 20px;
+  border: 2px black solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: upperCase;
+  line-height: 1.2;
+  text-align: center;
+  -moz-transform: matrix(
+    0.91294872760773,
+    -2.02715339538468e-16,
+    2.027151674849e-16,
+    0.91294795274734,
+    0,
+    0
+  );
+  -webkit-transform: matrix(
+    0.91294872760773,
+    -2.02715339538468e-16,
+    2.027151674849e-16,
+    0.91294795274734,
+    0,
+    0
+  );
+  -ms-transform: matrix(
+    0.91294872760773,
+    -2.02715339538468e-16,
+    2.027151674849e-16,
+    0.91294795274734,
+    0,
+    0
+  );
+}
+.buttonsBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1160px;
+  margin: 0 auto;
+  margin-top: 35px;
+  padding-left: 80px;
+}
+.buttonsBlock2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1160px;
+  margin: 0 auto;
+  margin-top: 35px;
+  padding-left: 80px;
+  visibility: hidden;
+}
+.sign {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+@media screen and (max-width: 1140px) {
+  .title {
+    margin-top: 260px;
+    margin-bottom: 60px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+  }
+
+  .title2 {
+    background-image: url("../images/title2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-top: 65%;
+    transition: 1.5s ease-in-out;
+  }
+  .cloud {
+    margin-left: 60px;
+    margin-right: 60px;
+    max-height: 400px;
+    flex-shrink: 1;
+    display: flex;
+    justify-content: center;
+    background-size: 100%;
+  }
+  .cloud2 {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    max-height: 400px;
+    flex-shrink: 1;
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0; /*Элемент полностью прозрачный (невидимый)*/
+    transition: 1s; /*Скорость перехода состояния элемента*/
+  }
+  .textBodyOne {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    max-width: 40%;
+    font-family: "Start14";
+    font-size: 4vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(14, 10, 10);
+    line-height: 1.3;
+    text-align: center;
+    -moz-transform: matrix(
+      1.00893700122833,
+      0.00044593313942,
+      -0.00044592609629,
+      1.00893676280975,
+      0,
+      0
+    );
+    -webkit-transform: matrix(
+      1.00893700122833,
+      0.00044593313942,
+      -0.00044592609629,
+      1.00893676280975,
+      0,
+      0
+    );
+    -ms-transform: matrix(
+      1.00893700122833,
+      0.00044593313942,
+      -0.00044592609629,
+      1.00893676280975,
+      0,
+      0
+    );
+  }
+
+  .textBodyTwo {
+    margin-left: 30px;
+    max-width: 50%;
+    font-size: 4vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Start14";
+    color: rgb(13, 10, 10);
+    line-height: 1.3;
+    text-align: center;
+    -moz-transform: matrix(
+      1.01501548290253,
+      -0.00174697383773,
+      0.00174697407056,
+      1.01501560211182,
+      0,
+      0
+    );
+    -webkit-transform: matrix(
+      1.01501548290253,
+      -0.00174697383773,
+      0.00174697407056,
+      1.01501560211182,
+      0,
+      0
+    );
+    -ms-transform: matrix(
+      1.01501548290253,
+      -0.00174697383773,
+      0.00174697407056,
+      1.01501560211182,
+      0,
+      0
+    );
+  }
+  .innerBlock {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .buttonsBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 35px;
+  }
+  .buttonsBlock2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 35px;
+    visibility: hidden;
+  }
+  .notBtns {
+    visibility: hidden;
+    opacity: 0; /*Элемент полностью прозрачный (невидимый)*/
+    transition: 2s; /*Скорость перехода состояния элемента*/
+    margin-top: 100px;
+    font-size: 3.5vw;
+    font-family: "Start14";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix(
+      0.93129086494446,
+      -2.06788112176883e-16,
+      2.06788151881552e-16,
+      0.93129104375839,
+      0,
+      0
+    );
+    -webkit-transform: matrix(
+      0.93129086494446,
+      -2.06788112176883e-16,
+      2.06788151881552e-16,
+      0.93129104375839,
+      0,
+      0
+    );
+    -ms-transform: matrix(
+      0.93129086494446,
+      -2.06788112176883e-16,
+      2.06788151881552e-16,
+      0.93129104375839,
+      0,
+      0
+    );
+    background-color: #ff609a;
+    width: 80%;
+    height: 70px;
+    border-radius: 20px;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: upperCase;
+    line-height: 1.2;
+  }
+  .btn {
+    font-size: 3.5vw;
+    font-family: "Start14";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix(
+      0.93129086494446,
+      -2.06788112176883e-16,
+      2.06788151881552e-16,
+      0.93129104375839,
+      0,
+      0
+    );
+    -webkit-transform: matrix(
+      0.93129086494446,
+      -2.06788112176883e-16,
+      2.06788151881552e-16,
+      0.93129104375839,
+      0,
+      0
+    );
+    -ms-transform: matrix(
+      0.93129086494446,
+      -2.06788112176883e-16,
+      2.06788151881552e-16,
+      0.93129104375839,
+      0,
+      0
+    );
+    background-color: #ff609a;
+    width: 80%;
+    height: 70px;
+    border-radius: 20px;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: upperCase;
+    line-height: 1.2;
+  }
+  .btn2 {
+    font-size: 3.5vw;
+    font-family: "Start14";
+    color: rgb(0, 0, 0);
+    background-color: #cbe8fc;
+    width: 80%;
+    height: 110px;
+    border-radius: 20px;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: upperCase;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix(
+      0.91294872760773,
+      -2.02715339538468e-16,
+      2.027151674849e-16,
+      0.91294795274734,
+      0,
+      0
+    );
+    -webkit-transform: matrix(
+      0.91294872760773,
+      -2.02715339538468e-16,
+      2.027151674849e-16,
+      0.91294795274734,
+      0,
+      0
+    );
+    -ms-transform: matrix(
+      0.91294872760773,
+      -2.02715339538468e-16,
+      2.027151674849e-16,
+      0.91294795274734,
+      0,
+      0
+    );
+    width: 80% !important ;
+    height: 70px !important;
+  }
+  .btnText {
+    opacity: 1;
+    transition: 1.5s;
+    font-size: 30.385px;
+    font-family: "Start14";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix(
+      0.93129086494446,
+      -2.06788112176883e-16,
+      2.06788151881552e-16,
+      0.93129104375839,
+      0,
+      0
+    );
+    -webkit-transform: matrix(
+      0.93129086494446,
+      -2.06788112176883e-16,
+      2.06788151881552e-16,
+      0.93129104375839,
+      0,
+      0
+    );
+    -ms-transform: matrix(
+      0.93129086494446,
+      -2.06788112176883e-16,
+      2.06788151881552e-16,
+      0.93129104375839,
+      0,
+      0
+    );
+    width: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: upperCase;
+    line-height: 1.2;
+  }
+  .notBtn {
+    visibility: hidden;
+    opacity: 0; /*Элемент полностью прозрачный (невидимый)*/
+    transition: 1s; /*Скорость перехода состояния элемента*/
+    width: 80%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: upperCase;
+    line-height: 1.2;
+  }
+  .notBtn2 {
+    visibility: hidden;
+    opacity: 0; /*Элемент полностью прозрачный (невидимый)*/
+    transition: 1s; /*Скорость перехода состояния элемента*/
+    width: 80%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: upperCase;
+    line-height: 1.2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: upperCase;
+    line-height: 1.2;
+  }
+
+  .sign {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+}
